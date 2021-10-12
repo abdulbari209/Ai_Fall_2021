@@ -5,6 +5,6 @@ stID: 62846
 3rd year
 
 
-Name: ABDUL BARI 
+Name: Abdul Bari
 stID: 10233
 3rd year
