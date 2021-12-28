@@ -55,3 +55,5 @@ submission = pd.DataFrame({
         "Cover_Type": Y_pred
     })
 submission.to_csv('LR_submission.csv', index=False)
+
+
