@@ -56,4 +56,7 @@ submission = pd.DataFrame({
     })
 submission.to_csv('LR_submission.csv', index=False)
 
+![image](https://user-images.githubusercontent.com/60986760/147591550-362def2c-e351-4d89-a4bc-5833fde30bf3.png)
+
+
 
