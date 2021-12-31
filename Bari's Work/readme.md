@@ -55,8 +55,21 @@ submission = pd.DataFrame({
         "Cover_Type": Y_pred
     })
 submission.to_csv('LR_submission.csv', index=False)
+# Gaussian Naive Bayes
+mnb = GaussianNB()
+mnb.fit(X_train, YTrain)
+Y_pred = mnb.predict(X_test)
+acc_mnb = round(mnb.score(X_train, YTrain) * 100, 2)
+print("Multinomial Naive Bayes accuracy =",round(acc_mnb,2,), "%")
+print(Y_pred.shape)
 
-![image](https://user-images.githubusercontent.com/60986760/147591550-362def2c-e351-4d89-a4bc-5833fde30bf3.png)
+submission = pd.DataFrame({
+        "Id": testData["Id"],
+        "Cover_Type": Y_pred
+    })
+submission.to_csv('Gau_submission.csv', index=False)
+![image](https://user-images.githubusercontent.com/60986760/147825327-62afdf48-2d6d-4615-b3cc-e7bc09884103.png)
+
 
 
 
