@@ -8,6 +8,9 @@ It is a simple classification technique.They find use when the dimensionality of
 PROBLEMS FACED
 Problem in a sense huge amount of data thats why faced laptop performance issued 
 
+ACCURACY:
+high accuracy 
+logistic regression 
 
 import pandas as pd
 from sklearn import linear_model
