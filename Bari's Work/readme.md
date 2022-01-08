@@ -1,3 +1,14 @@
+REPORT
+MULTINOMIAL NAIVE BAYES 
+Because Multinomial Naive Bayes algorithm is a probabilistic learning method
+LOGISTIC REGRESSION
+Because Logistic regression is a statistical analysis method used to predict a data value based on prior observations of a data set
+GAUSIAN NAIVE BAYES
+It is a simple classification technique.They find use when the dimensionality of the inputs is high. Complex classification problems can also be implemented by using Naive Bayes Classifier.
+PROBLEMS FACED
+Problem in a sense huge amount of data thats why faced laptop performance issued 
+
+
 import pandas as pd
 from sklearn import linear_model
 from sklearn.linear_model import LogisticRegression
